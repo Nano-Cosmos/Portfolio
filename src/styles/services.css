@@ -1,0 +1,32 @@
+
+/* service page */
+.services-section {
+  padding: 5rem 0 2rem 0;
+  background-color: var(--bg-primary);
+}
+.service-card {
+  background: #222222;
+  border-radius: 14px;
+  padding: 2.2rem 1.5rem;
+  transition: all 0.35s ease;
+}
+.service-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--accent-color);
+}
+.service-icon {
+  font-size: 2.2rem;
+  color: var(--accent-primary);
+  margin-bottom: 1rem;
+}
+.service-title {
+  color: var(--text-primary);
+  font-size: 1.05rem;
+  margin-bottom: 0.6rem;
+}
+.service-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+

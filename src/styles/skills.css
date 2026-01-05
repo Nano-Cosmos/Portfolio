@@ -1,0 +1,29 @@
+
+/* skills page */
+.skills-section {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.skill-bar .progress {
+  height: 8px;
+  background-color: #16161d;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-bar .progress-bar {
+  height: 8px;
+  background-color: var(--accent-primary);
+  width: 0%;
+  transition: width 1.5s ease-in-out;
+}
+
+.skill-icon {
+  font-size: 1.5rem;
+  color: var(--accent-primary);
+}
+
+.skill-name {
+  font-weight: 500;
+}
