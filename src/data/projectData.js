@@ -80,7 +80,7 @@ const projectData = [
         ],
 
         gitLink: "",
-        demoLink: "",
+        demoLink: "https://florexo-frontend.vercel.app/",
 
         status: "completed",
         year: 2025
